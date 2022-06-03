@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie ticket booking</title>
+    <link rel="stylesheet" href="./booking style.css">
+    <style>
+        /* input{
+            display: block;
+        } */
+    </style>
+
+</head>
+<body>
+    <div class="movieticket">
+        <label >Pick a movie</label>
+        <select  id="movie">
+            <option value="10">KGF-chapter 2($100)</option>
+            <option value="12">charlie ($200)</option>
+            <option value="9">RRR ($200)</option>
+            <option value="8">jokar ($150)</option>
+            <option value="7">vikranth rona ($400)</option>
+            <option value="6">Thor ($450)</option>
+
+        </select>
+    </div>
+
+    <ul class="show">
+        <li>
+            <div class="seat selected"></div>
+            <small>selected</small>
+        </li>
+
+        <li>
+            <div class="seat occupied "></div>
+            <small>occupied</small>
+        </li>
+
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>  
+              <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+                <div class="row">
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+                <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>     
+           <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+        </div>
+        <p class="text">
+           you have selected <span id="count">0</span> seats for a price of $ <span id="total">0</span>
+        </p>
+    </div>
+
+    <script src="./bookticket.js"></script>
+
+
+    </body>
+</html>
